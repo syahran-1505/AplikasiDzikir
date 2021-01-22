@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/lay_header"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvw_sore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="15dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/taawudz_pagi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/arti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="''Aku berlindung kepada Allah dari godaan syaithan yang terkutuk ''"
+                android:textSize="13sp"/>
+            <TextView
+                android:id="@+id/juduldoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Membaca Ayat Kursi"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isidoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:textSize="20sp"
+                android:text="@string/ayat_kursi"/>
+            <TextView
+                android:id="@+id/artidoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/arti_ayatkursi"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

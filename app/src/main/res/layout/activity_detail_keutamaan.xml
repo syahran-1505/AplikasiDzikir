@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/lay_header"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manfaat-Manfaat Dzikir"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:fontFamily="@font/font_pacifico"
+        android:layout_marginTop="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvw_keutamaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mendapat perlindungan dari Allah"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="     Manfaat dzikir pagi dan petang yang pertama adalah mendapatkan perlindungan dari Allah SWT. Orang yang senantiasa memuji kebesaran Allah akan selalu terlindung dari keburukan. Dzikir juga bisa membuka pintu keselamatan dunia akhirat.
+Dalam hadits Abu Hurairah radhiyallahu ‘anhu disebutkan bahwa barangsiapa yang mengucapkan dzikir ini di sore hari sebanyak tiga kali, maka ia tidak akan mendapat bahaya racun di malam tersebut. (HR. Ahmad 2/290)."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mendekatkan diri pada Allah"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="     Berdzikir merupakan salah satu amalan yang paling disukai Allah SWT. Ini tertuang dalam hadis yang berbunyi:
+“Maukah kamu aku tunjukkan perbuatanmu yang terbaik, paling suci di sisi Raja-mu (Allah), dan paling mengangkat derajatmu; lebih baik bagimu dari infak emas atau perak, Para Sahabat yang hadir berkata: “Mau (wahai Rasulullah)!” Beliau bersabda: “Dzikir kepada Allah Yang Mahatinggi.” (HR. At-Tirmidzi no. 3377).
+Berdzikir juga bisa mengingatkan diri pada kehidupan setelah kematian, dan membuat selalu ingat akan kebesaran-Nya."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dicukupi kebutuhannya"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    Berdzikir bisa membuka pintu rezeki. Ini membuat segala urusan dunia dan akhirat terasa lancar dan mudah dilalui. Saat berdzikir, Anda akan merasa selalu bersyukur dengan segala apa yang telah dimiliki. Ini membuat hati selalu merasa cukup dan jauh dari perasaan tamak dan serakah."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dijanjikan surga"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karena termasuk amalan yang disukai Allah SWT, berdzikir tentunya memiliki ganjaran yang luar biasa. Siapa pun yang berdzikir setiap harinya akan dijanjikan surga oleh Allah.
+Dari Syaddad bin Aus radhiyallahu ‘anhu, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Barangsiapa mengucapkan dzikir ini di siang hari dalam keadaan penuh keyakinan, lalu ia mati pada hari tersebut sebelum sore hari, maka ia termasuk penghuni surga. Dan barangsiapa yang mengucapkannya di malam hari dalam keadaan penuh keyakinan, lalu ia mati sebelum shubuh, maka ia termasuk penghuni surga.” (HR. Bukhari (7/150, no. 6306)."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amalan yang disukai Rasulullah"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berdzikir juga merupakan amalan yang disukai Rasulullah. Rasulullah tidak pernah melewatkan dzikirnya setiap hari. Inilah mengapa dzikir menjadi salah satu sunah rasul yang dianjurkan oleh umat muslim."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memberi ketenangan"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berdzikir bisa membuat umat muslim merasa tenang hatinya. Saat berada di dekat Allah SWT, hati akan selalu merasa tenang dan damai. Ini sesuai dengan ayat Al Quran yang berbunyi:
+“…Ingatlah, hanya dengan mengingati Allah-lah hati menjadi tenang.” (QS. Ar-Ra’d: 28)."
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15sp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
